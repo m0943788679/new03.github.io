@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>questionnaire</title>
+</head>
+<body>
+    <table style="width: 100%; height: 100vh; border: none;">
+        <tr>
+            <td style="text-align: center; vertical-align: top; padding: 1%;">
+                <h1>แบบสอบถาม</h1>
+                <hr style="width: 100%; margin: 50px auto; border: 1px solid black;">
+            </td>
+        </tr>
+    </table> 
+    <table style="width: 100%; height: 100vh; border: none;">
+        <tr>
+        <td>
+         <div style="position: absolute; top: 47%; left: 50%; transform: translate(-50%, -50%); margin: 0; padding-left: 10px; width: 500px;">
+        <div style="background-color: bisque; ">
+        <h3>ข้อมูลผู้ให้แบบสอบถาม</h3>
+        <form method="">
+            <label style="display: inline-block; width: 100px;">ชื่อ-นามสกุล</label>
+            <input type="text" name="ชื่อ-นามสกุล" required style="display: inline-block; width: 385px ;"><br><br>
+            <label style="display: inline-block; width: 100px;">รหัสนักศึกษา</label>
+            <input type="text" name="รหัสนักศึกษา" style="display: inline-block; width: 385px;"><br><br>
+
+            <label style="display: inline-block; width: 100px;">เพศ</label>
+            <input type="radio" name="gender" value="male" id="male">
+            <label for="male">ชาย</label>
+            <input type="radio" name="gender" value="female" id="female">
+            <label for="male">หญิง</label><br><br>
+        
+            <label style="display: inline-block; width: 100px;">สังกัดคณะ</label>
+            <select name="faculty" style="display: inline-block;" >
+                <option value="science">คณะวิทยาศาสตร์</option>
+                <option value="Humanities">คณะมนุษยศาสตร์และสังคมศาสตร์</option>
+                <option value="Business">คณะบริหารธุรกิจและการจัดการ</option>
+                <option value="Education">คณะครุศาสตร์</option>
+                <option value="Agriculture">คณะเกษตรศาสตร์</option>
+                <option value="Industrial Technology">คณะเทคโนโลยีอุตสาหกรรม</option>
+                <option value="Law">คณะนิติศาสตร์</option>
+                <option value="Thai Traditional">คณะแพทย์แผนไทยและแพทย์ทางเลือก</option>
+                <option value="Nursing">คณะพยาบาลศาสตร์ </option>
+                <option value="Public Health">คณะสาธารณสุขศาสตร์</option>
+                <option value="Computer Science">คณะวิทยาการคอมพิวเตอร์</option>
+            </select><br><br>
+
+                <label style="display: inline-block; width: 100px;">แม่สีที่ชอบ</label><br>
+                <input type="checkbox" name="color" value="red" id="red">
+                <label for="red">สีแดง</label>
+                <input type="checkbox" name="color" value="green" id="green">
+                <label for="green">สีเขียว</label>
+                <input type="checkbox" name="color" value="blue" id="blue">
+                <label for="blue">สีน้ำเงิน</label><br><br>
+
+                <label style="display: inline-block; width: 100px;">ผลไม้ที่ชอบ</label><br>
+                <input type="checkbox" name="fruit" id="mango">
+                <label for="mango">มะม่วง</label>
+                <input type="checkbox" name="fruit" id="custardapple">
+                <label for="custardapple">น้อยหน่า</label>
+                <input type="checkbox" name="fruit" id="durian">
+                <label for="durian">ทุเรียน</label><br>
+                <input type="checkbox" name="fruit" id="longan">
+                <label for="longan">ลำไย</label>
+                <input type="checkbox" name="fruit" id="guava">
+                <label for="guava">ฝรั่ง</label>
+                <input type="checkbox" name="fruit" id="watermelon">
+                <label for="watermelon">แตงโม</label><br><br>
+
+                <label style="display: inline-block; width: 150px;">อาหารที่ชื่นชอบ</label><br>
+                <input type="checkbox" name="food" id="tmyakung">
+                <label for="tmyakung">ต้มยำกุ้ง</label>
+                <input type="checkbox" name="food" id="khiceiywhmusab">
+                <label for="khiceiywhmusab">ไข่เจียวหมูสับ</label>
+                <input type="checkbox" name="food" id="kaengkhaki">
+                <label for="kaengkhaki">แกงข่าไก่</label><br>
+                <input type="checkbox" name="food" id="kaenkheiywhwan">
+                <label for="kaenkheiywhwan">แกงเขียวหวาน</label>
+                <input type="checkbox" name="food" id="padthai">
+                <label for="padthai">ผัดไทย</label>
+                <input type="checkbox" name="food" id="radnameekrob">
+                <label for="radnameekrob">ราดหน้าหมี่กรอย</label><br><br>
+
+                <div style="text-align: center; vertical-align: top; padding: 1%;">
+                    <input type="submit" value="บันทึก">
+                </div>
+
+                
+                 </form>
+                </div>
+            </div>
+        </td>
+    </tr>       
+ </table>
+    
+       
+</body>
+</html>
